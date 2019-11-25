@@ -1,13 +1,13 @@
 package com.example.recyclerview1028;
 //此類別是框架(資料類型的集合)
-//6設型別跟變數名稱(圖跟3個標籤)
+//8設型別跟變數名稱(圖跟3個標籤)
 
 public class viewClass {
     public int pic;
     public String name;
     public String date;
     public String info;
-//7右鍵產生一個建構子
+//9右鍵產生一個建構子
 
     public viewClass(int pic, String name, String date, String info) {
         this.pic = pic;
@@ -15,7 +15,7 @@ public class viewClass {
         this.date = date;
         this.info = info;
     }
-//8右鍵產生一個getter and setter
+//10右鍵產生一個getter and setter
 
     public int getPic() {
         return pic;
@@ -49,4 +49,4 @@ public class viewClass {
         this.info = info;
     }
 }
-//9增一個adapter類別
+//11增一個adapter類別
